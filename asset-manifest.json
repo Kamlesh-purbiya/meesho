@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/meesho/static/css/main.f3fffb0b.css",
-    "main.js": "/meesho/static/js/main.f400ac46.js",
+    "main.js": "/meesho/static/js/main.a73d05dd.js",
     "index.html": "/meesho/index.html",
     "main.f3fffb0b.css.map": "/meesho/static/css/main.f3fffb0b.css.map",
-    "main.f400ac46.js.map": "/meesho/static/js/main.f400ac46.js.map"
+    "main.a73d05dd.js.map": "/meesho/static/js/main.a73d05dd.js.map"
   },
   "entrypoints": [
     "static/css/main.f3fffb0b.css",
-    "static/js/main.f400ac46.js"
+    "static/js/main.a73d05dd.js"
   ]
 }
