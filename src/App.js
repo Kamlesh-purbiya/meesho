@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import {HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import { CartProvider } from './context/CartContext';
 import Header from './components/Header/Header';
@@ -13,8 +13,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
-    <CartProvider>
-      <div className="App">
+    <Router>
+      <CartProvider>
         <Header />
         <main>
           <Routes>
@@ -38,8 +38,8 @@ function App() {
           draggable
           pauseOnHover
         />
-      </div>
-    </CartProvider>
+      </CartProvider>
+    </Router>
   );
 }
 

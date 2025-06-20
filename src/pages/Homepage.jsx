@@ -7,7 +7,7 @@ import ProductCard from '../components/ProductCard/ProductCard';
 import LoadingSpinner from '../components/LoadingSpinner/LoadingSpinner';
 
 const Homepage = () => {
-  const { products, loading } = useProducts('', 12);
+  const { products, loading } = useProducts('', 56);
 
   const categories = [
     { name: 'Women Clothing', path: '/products/womens-dresses', image: 'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=300' },
@@ -106,7 +106,7 @@ const Homepage = () => {
               <LoadingSpinner text="Loading featured products..." />
             ) : (
               <Row className="g-4">
-                {products.slice(0, 8).map((product) => (
+                {products.slice(0, 56).map((product) => (
                   <Col key={product.id} xs={6} md={4} lg={3}>
                     <ProductCard product={product} />
                   </Col>
