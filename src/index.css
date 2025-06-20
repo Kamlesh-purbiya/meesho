@@ -11,3 +11,101 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Custom Meesho Theme Colors */
+:root {
+  --meesho-primary: #f43397;
+  --meesho-secondary: #f8f9fa;
+  --meesho-success: #28a745;
+  --meesho-warning: #ffc107;
+  --meesho-danger: #dc3545;
+  --meesho-info: #17a2b8;
+  --meesho-light: #f8f9fa;
+  --meesho-dark: #343a40;
+}
+
+/* Custom Styles */
+.meesho-primary {
+  background-color: var(--meesho-primary) !important;
+  border-color: var(--meesho-primary) !important;
+}
+
+.text-meesho-primary {
+  color: var(--meesho-primary) !important;
+}
+
+.border-meesho-primary {
+  border-color: var(--meesho-primary) !important;
+}
+
+.product-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid #e0e0e0;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.category-card {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+.price-original {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.discount-badge {
+  background-color: var(--meesho-primary);
+  color: white;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.hero-banner {
+  background: linear-gradient(135deg, var(--meesho-primary), #e91e63);
+  color: white;
+  padding: 60px 0;
+}
+
+.footer-section {
+  background-color: #2c3e50;
+  color: white;
+  padding: 40px 0 20px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: color 0.2s;
+}
+
+.social-icons a:hover {
+  color: var(--meesho-primary);
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    padding: 40px 0;
+  }
+  
+  .hero-banner h1 {
+    font-size: 2rem;
+  }
+}
