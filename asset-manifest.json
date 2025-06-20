@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Kamlesh-purbiya/meesho/static/css/main.f3fffb0b.css",
-    "main.js": "/Kamlesh-purbiya/meesho/static/js/main.4b4c7bca.js",
-    "index.html": "/Kamlesh-purbiya/meesho/index.html",
-    "main.f3fffb0b.css.map": "/Kamlesh-purbiya/meesho/static/css/main.f3fffb0b.css.map",
-    "main.4b4c7bca.js.map": "/Kamlesh-purbiya/meesho/static/js/main.4b4c7bca.js.map"
+    "main.css": "/meesho/static/css/main.f3fffb0b.css",
+    "main.js": "/meesho/static/js/main.f400ac46.js",
+    "index.html": "/meesho/index.html",
+    "main.f3fffb0b.css.map": "/meesho/static/css/main.f3fffb0b.css.map",
+    "main.f400ac46.js.map": "/meesho/static/js/main.f400ac46.js.map"
   },
   "entrypoints": [
     "static/css/main.f3fffb0b.css",
-    "static/js/main.4b4c7bca.js"
+    "static/js/main.f400ac46.js"
   ]
 }
