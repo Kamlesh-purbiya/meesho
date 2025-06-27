@@ -73,10 +73,10 @@ const Header = () => {
                   placeholder="Try Saree, Kurti or Search by Product Code"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  style={{ minWidth: '300px' }}
+                  style={{ minWidth: '250px' }}
                 />
                 <Button variant="outline-secondary" type="submit">
-                  <Search size={18} />
+                  <Search size={16} />
                 </Button>
               </InputGroup>
             </Form>
