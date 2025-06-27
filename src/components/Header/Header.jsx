@@ -42,7 +42,7 @@ const Header = () => {
 
   return (
     <>
-      <Navbar bg="white" expand="lg" className="shadow-sm sticky-top">
+      <Navbar bg="white" expand="xl" className="shadow-sm sticky-top">
         <Container>
           <Navbar.Brand as={Link} to="/" className="fw-bold text-meesho-primary fs-2">
             Meesho
